@@ -1,0 +1,112 @@
+/* Reset defaults and set global font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Set a beautiful gradient background for the whole page */
+body {
+  background: linear-gradient(to right, #74ebd5, #ACB6E5);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container to center the login box */
+.container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: #4ec4a2 0px 0px 6px 5px;
+  border-radius: 4px;
+}
+
+/* Styling for the login page box */
+.registerpage {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Heading styles */
+.registerpage h1 {
+  margin-bottom: 10px;
+  color: #003366 ;
+  /* transition: text-decoration 5s ease-in-out; */
+}
+
+
+.registerpage h3 {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.registerpage h3:hover{
+  text-decoration: underline;
+}
+
+/* Form layout */
+.registerpage form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+/* Label styling */
+.registerpage label {
+  margin: 10px 0 5px;
+  color: #555;
+  text-align: left;
+}
+
+/* Input styling for email and password fields */
+.registerpage input[type="email"],
+.registerpage input[type="password"],
+.registerpage input[type="name"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+/* Submit button styling */
+.registerpage input[type="submit"] {
+  background-color: #74ebd5;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.registerpage input[type="submit"]:hover {
+  /* background-color: #5cd3b3; */
+  background-color: rgb(41, 141, 41);
+}
+
+/* Paragraph and link styling */
+.registerpage p {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.registerpage p a {
+  color: #74ebd5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.registerpage p a:hover {
+  text-decoration: underline;
+  color: rgb(44, 75, 160);
+}
