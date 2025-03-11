@@ -25,7 +25,7 @@ def perform_registration():
     return 'Registration Successful'
   
   else:
-    return 'email already exist'
+    return 'email already present hai apka'
 
 
 
